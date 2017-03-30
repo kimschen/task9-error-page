@@ -1,0 +1,29 @@
+﻿<%@ Master Language="VB" CodeFile="FrontEnd.master.vb" Inherits="FrontEnd" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Set Task / Assignment</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="StyleSheets/Style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="topContent">
+            <h3>ASP.NET</h3> 
+            <p>Set Task & Assignment 8 - Interacting with databases</p>
+        </div>        
+        <nav>
+            <ul>
+                <li><a href="Default.aspx">Product</a></li>
+                <li><a href="page_not_found.html">Error 404</a></li>
+                <li><a href="server_error.html">Error 505</a></li>
+            </ul>
+        </nav>
+        <asp:ContentPlaceHolder id="theMainContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
